@@ -1,0 +1,21 @@
+<?php 
+
+$email = <<< email
+Dear {$account->getUsername()},
+
+Your Mundosdosparquinhos account has been created! To complete registration, click on the below link to 
+confirm your e-mail address.
+
+http://www.mundosdosparquinhos.com/user/confirm/key/{$account->getRecovery()}
+
+Once confirmed, you'll be able to access exclusive GameNomad features!
+
+Thank you!
+Mundo dos parquinhos
+
+Questions? Contact us at mundodosparquinhos@mundodosparquinhos.com.br
+
+
+email;
+
+?>
